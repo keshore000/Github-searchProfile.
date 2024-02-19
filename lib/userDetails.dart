@@ -38,7 +38,7 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
   Widget build(BuildContext context) {
     final userProvider = Provider.of<Userprovider>(context);
     final user = userProvider.user;
-print(user!.username);
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.username),
