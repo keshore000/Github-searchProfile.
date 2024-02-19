@@ -6,7 +6,7 @@ import 'package:mod2/user.dart';
 import 'package:http/http.dart'as http;
 
 class Userprovider with ChangeNotifier{
-  late User user;
+   User? user;
 
   Future<void> getUserprofile(String username)async
   {
